@@ -59,3 +59,21 @@ section form button{
     color: white;
     cursor: pointer;
 }
+
+/* Accueil. */
+
+.container {
+    width: 700px; /* Largeur d'un écran de tablette et de petit écran PC. */
+    margin: 0 auto;
+}
+
+/* Menu en haut à droite. */
+header ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header ul li {
+    margin-left: 20px;
+    font-size: 1.6rem;
+}
