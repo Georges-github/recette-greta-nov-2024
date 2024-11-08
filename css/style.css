@@ -129,3 +129,15 @@ header ul li {
     margin: auto;
     width: fit-content;
 }
+
+/* Pied de page. */
+
+footer {
+}
+
+footer #formContact {
+    border: solid 2px blue;
+    margin: auto;
+    display: inline-block;
+    justify-content: center;
+}
