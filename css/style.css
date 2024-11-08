@@ -136,7 +136,6 @@ footer {
 }
 
 footer #formContact {
-    border: solid 2px blue;
     margin: auto;
     display: inline-block;
     justify-content: center;
