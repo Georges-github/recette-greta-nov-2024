@@ -99,3 +99,27 @@ header ul li {
 .gallerie article h2 {
     flex: 1;
 }
+
+/* Formulaire. */
+#formContact {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: solid 3px gray;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+}
+
+#formContact * {
+    margin-bottom: 20px;
+}
+
+#formContact label {
+    margin-bottom: 5px;
+}
+
+#formContact input[type=submit] {
+    margin: auto;
+    width: fit-content;
+}
