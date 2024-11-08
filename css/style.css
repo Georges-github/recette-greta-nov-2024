@@ -101,6 +101,12 @@ header ul li {
 }
 
 /* Formulaire. */
+
+#titre {
+    display: flex;
+    justify-content: center;
+}
+
 #formContact {
     display: flex;
     flex-direction: column;
@@ -108,7 +114,7 @@ header ul li {
     border: solid 3px gray;
     border-radius: 10px;
     padding: 10px;
-    margin: auto;
+    margin: 20px auto 0px auto;
 }
 
 #formContact * {
