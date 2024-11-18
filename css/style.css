@@ -132,11 +132,13 @@ header ul li {
 
 /* Pied de page. */
 
-footer {
+footer #formNewsletter {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
-footer #formContact {
-    margin: auto;
-    display: inline-block;
-    justify-content: center;
+footer #formNewsletter * {
+    margin-right: 10px;
 }
